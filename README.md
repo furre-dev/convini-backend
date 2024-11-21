@@ -53,7 +53,9 @@ Example response:
 
 #### Error 400 (Bad Request)
 
-If the request method is not POST, or the body does not follow the correct schema, the API will return a `400 BAD REQUEST` error. Example:
+If the request method is not POST, or the body does not follow the correct schema, the API will return a `400 BAD REQUEST` error. 
+
+Example:
 
 ```json
 {
@@ -63,7 +65,9 @@ If the request method is not POST, or the body does not follow the correct schem
 
 #### Error 404 (Not Found)
 
-If no matching products are found based on the provided EANs, the API will return a `404 Not Found` error. Example:
+If no matching products are found based on the provided EANs, the API will return a `404 Not Found` error. 
+
+Example:
 
 ```json
 {
@@ -73,7 +77,9 @@ If no matching products are found based on the provided EANs, the API will retur
 
 #### Error 500 (Internal Server Error)
 
-If an error occurs while generating the bundle name, the API will return a `500 Internal Server Error`. Example:
+If an error occurs while generating the bundle name, the API will return a `500 Internal Server Error`. 
+
+Example:
 
 ```json
 {
