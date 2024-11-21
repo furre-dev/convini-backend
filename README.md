@@ -1,7 +1,7 @@
 
 # Convini AI endpoint for creating new bundles.
 
-## Welcome to Convini's API endpoint where we get names, descriptions, and prices.
+## Welcome to Convini's API endpoint for creating new bundles. This endpoint generates a name, description, and price for each bundle.
 
 Start by sending a request to the endpoint to [https://convini-backend.vercel.app/api/create-bundle](https://convini-backend.vercel.app/api/create-bundle).
 
