@@ -112,7 +112,7 @@ This project relies on the following npm packages:
 
 1. Clone the repository:
    ```
-   git clone [https://github.com/furre-dev/convini-backend.git](https://github.com/furre-dev/convini-backend.git)
+   git clone https://github.com/furre-dev/convini-backend.git
    ```
 
 2. Install the dependencies:
