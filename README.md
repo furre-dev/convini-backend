@@ -4,7 +4,8 @@
 
 Start by sending a request to the endpoint to [https://convini-backend.vercel.app/api/create-bundle-name](https://convini-backend.vercel.app/api/create-bundle-name).
 
-# Some stuff to think about when using this endpoint
+# Here are some things to consider when using this endpoint:  
+
 
 ### 1. Only POST method is allowed.  
 
