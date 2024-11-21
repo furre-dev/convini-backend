@@ -29,7 +29,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const bundle = await createBundle(productsList);
 
   if (!bundle) {
-    return res.status(500).send("An error occured when creating bundle name. Please check Vercel logs.");
+    return res.status(500).send("An error occured when creating bundle. Please check Vercel logs.");
   };
 
   return res.json(bundle)
