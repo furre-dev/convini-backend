@@ -39,7 +39,13 @@ When the request is successful, the API will return a JSON response with the gen
 
 ```json
 {
-  "bundleName": "Generated Bundle Name"
+  "bundle_name": "Energi och Fräschör",
+  "bundle_description": "En uppfriskande mix av energi och smak! Få en kick med Red Bull, njut av den klassiska Coca-Cola och fräscha upp dig med en mango-aloe vera-dryck. Perfekt för en energifylld dag!",
+  "bundle_categories": [
+    "Energi",
+    "Läsk"
+  ],
+  "price": 56.99
 }
 ```
 
