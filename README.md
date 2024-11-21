@@ -6,10 +6,10 @@ Start by sending a request to the endpoint to [https://convini-backend.vercel.ap
 
 # IMPORTANT STUFF TO THINK ABOUT WHEN SENDING A REQUEST
 
-## Only POST method is allowed.  
+## 1. Only POST method is allowed.  
 
 
-### The type of the Input body
+### 2. The type of the Input body
 ```javascript
 type BodyType = {
   items: string[]
