@@ -3,7 +3,7 @@
 
 ## Welcome to Convini's API endpoint where we get names, descriptions, and prices.
 
-Start by sending a request to the endpoint to [https://convini-backend.vercel.app/api/create-bundle-name](https://convini-backend.vercel.app/api/create-bundle-name).
+Start by sending a request to the endpoint to [https://convini-backend.vercel.app/api/create-bundle](https://convini-backend.vercel.app/api/create-bundle).
 
 # Here are some things to consider when using this endpoint:
 
@@ -35,7 +35,7 @@ Example request body:
 
 #### Success (200 OK)
 
-When the request is successful, the API will return a JSON response with the generated bundle name.  
+When the request is successful, the API will return a JSON response with the generated bundle.  
 
 Example response:
 
@@ -77,13 +77,13 @@ Example:
 
 #### Error 500 (Internal Server Error)
 
-If an error occurs while generating the bundle name, the API will return a `500 Internal Server Error`. 
+If an error occurs while generating the bundle, the API will return a `500 Internal Server Error`. 
 
 Example:
 
 ```json
 {
-  "error": "An error occurred when creating bundle name. Please check Vercel logs."
+  "error": "An error occurred when creating bundle. Please check Vercel logs."
 }
 ```
 
@@ -100,12 +100,12 @@ This project relies on the following npm packages:
 /src
   /utils
     /openai
-      createBundle.js  # Contains the logic to create the bundle name
+      createBundle.js  # Contains the logic to create the bundle
       types.js         # Defines the response body schema and types for the OpenAI API
     /product
       products.js      # Contains a list of available products
 /api
-  /create-bundle-name.js  # The Vercel serverless function endpoint
+  /create-bundle.js  # The Vercel serverless function endpoint
 ```
 
 ## How to Run Locally
