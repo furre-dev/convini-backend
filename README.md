@@ -6,7 +6,7 @@ Start by sending a request to the endpoint to [https://convini-backend.vercel.ap
 
 # IMPORTANT STUFF TO THINK ABOUT WHEN SENDING A REQUEST
 
-## 1. Only POST method is allowed.  
+### 1. Only POST method is allowed.  
 
 
 ### 2. The type of the Input body
